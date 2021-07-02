@@ -1,0 +1,25 @@
+# shortcut    shift + alt + F
+root = true
+[*.c,*.cc,*.cpp,*.cxx,*.h,*.hh,*.hpp,*.hxx,*.i,*.swg,CMakeLists.*]
+trim_trailing_whitespace = true
+insert_final_newline = true
+end_of_line = lf
+charset = utf-8
+indent_style = space
+indent_size = 4
+[*.json,*.sh,*.wsd,*.pu,*.puml,*.plantuml,*.iuml]
+trim_trailing_whitespace = true
+insert_final_newline = true
+end_of_line = lf
+charset = utf-8
+indent_style = space
+indent_size = 2
+[CMakeSettings.json]
+end_of_line = crlf
+[*.md]
+trim_trailing_whitespace = false
+insert_final_newline = true
+end_of_line = lf
+charset = utf-8
+indent_style = space
+indent_size = 4
